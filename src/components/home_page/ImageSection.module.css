@@ -1,0 +1,18 @@
+.image {
+  height: calc(100vh - 85px);
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: 0.4s all ease-in-out;
+}
+
+.image:hover {
+  filter: grayscale(0%);
+}
+
+.content {
+  background-color: #cceebc;
+}

@@ -1,0 +1,25 @@
+header {
+  height: 80px;
+  background-color: #f4ecec;
+  padding: 15px;
+  -webkit-box-shadow: 0px 4px 5px -3px rgba(54, 51, 54, 1);
+  -moz-box-shadow: 0px 4px 5px -3px rgba(54, 51, 54, 1);
+  box-shadow: 0px 4px 5px -3px rgba(54, 51, 54, 1);
+  display: flex;
+  justify-content: space-between;
+}
+
+header > h1 {
+  font-family: "Handjet", cursive;
+  font-size: 3.4rem;
+  letter-spacing: 3px;
+}
+
+.logos {
+  padding: 25px;
+  display: flex;
+}
+
+.logos > i {
+  padding: 0 25px;
+}
